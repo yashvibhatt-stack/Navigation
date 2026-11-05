@@ -1,0 +1,69 @@
+/* Design tokens — mirrored from the Figma variable collections */
+:root {
+  /* spacing */
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-3: 8px;
+  --spacing-4: 12px;
+  --spacing-5: 16px;
+  --spacing-7: 24px;
+
+  /* radius / border */
+  --borderradius-small: 2px;
+  --borderradius-medium: 4px;
+  --borderradius-large: 8px;
+  --borderradius-max: 1000px;
+  --borderwidth-thin: 1px;
+  --borderwidth-thick: 1.5px;
+
+  /* surface */
+  --surface-background-gray-subtle: #f5f7fa;
+  --surface-background-gray-intense: #ffffff;
+  --surface-border-gray-normal: #c9d2db;
+  --surface-text-gray-normal: #1f2933;
+  --surface-text-gray-subtle: #52606d;
+  --surface-text-gray-muted: #616e7c;
+  --surface-text-staticwhite-normal: #ffffff;
+
+  /* interactive */
+  --interactive-background-gray-default: #ffffff;
+  --interactive-background-gray-fadedhighlighted: #e0e6ef;
+  --interactive-background-primary-default: #5a2b97;
+  --interactive-background-primary-faded: #f7f2fc;
+  --interactive-background-negative-default: #d92d20;
+  --interactive-border-gray-default: #8995a2;
+  --interactive-border-gray-faded: #c9d2db;
+  --interactive-border-primary-default: #5a2b97;
+  --interactive-border-focus-default: #915ed4;
+  --interactive-border-negative-default: #d92d20;
+  --popup-border-subtle: #e0e6ef;
+  --overlay-background-moderate: rgba(0, 0, 0, 0.48);
+  --interactive-text-gray-default: #1f2933;
+  --interactive-text-primary-default: #5a2b97;
+  --interactive-text-white-default: #ffffff;
+
+  /* feedback */
+  --feedback-icon-positive-intense: #006c36;
+  --feedback-icon-negative-intense: #9a0e0e;
+  --feedback-text-positive-intense: #005128;
+  --feedback-text-negative-intense: #9a0e0e;
+  --feedback-background-positive-subtle: #ebfaf3;
+  --feedback-border-positive-subtle: #b6ecd1;
+  --feedback-background-negative-subtle: #fff5f5;
+  --feedback-border-negative-subtle: #fec6c3;
+  --feedback-background-negative-intense: #d92d20;
+  --feedback-border-negative-intense: #f04438;
+  --feedback-background-neutral-intense: #52606d;
+
+  /* overlay / popup */
+  --overlay-background-subtle: rgba(0, 0, 0, 0.32);
+  --popup-background-subtle: #ffffff;
+  --video-background: #171d22;
+
+  /* elevation/popup */
+  --elevation-popup: 0 1px 3px rgba(15, 20, 26, 0.08), 0 4px 12px rgba(15, 20, 26, 0.1);
+
+  /* type scale (size / line-height / weight / tracking) */
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-brand: "Montserrat", var(--font-sans);
+}
